@@ -4,6 +4,7 @@ import Banner from "../components/Banner";
 import Stat from "../components/Stat";
 import AllTools from "../components/AllTools";
 import Steps from "../components/Steps";
+import Pricing from "../components/Pricing";
 
 const Home = () => {
   const [cart, setCart] = useState([]);
@@ -15,6 +16,7 @@ const Home = () => {
       <Stat />
       <AllTools cart={cart} setCart={setCart} />
       <Steps />
+      <Pricing />
     </div>
   );
 };
