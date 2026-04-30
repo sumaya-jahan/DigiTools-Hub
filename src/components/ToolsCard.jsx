@@ -33,7 +33,7 @@ const ToolsCard = ({ tools, addToCart }) => {
                     </ul>
 
                     <button
-                        onClick={()=>addToCart(tool)}
+                        onClick={() => addToCart(tool)}
                         className="mt-4 w-full bg-purple-600 text-white py-2 rounded-full"
                     >
                         Buy Now
